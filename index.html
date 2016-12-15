@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Scoped CSS Variables and JS</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <h2>Update CSS <span class='hl'>Variables</span> with <span class='hl'>JS</span></h2>
 
-  <div class="controls">
-    <label for="spacing">Spacing:
+<head>
+    <meta charset="UTF-8">
+    <title>Scoped CSS Variables and JS</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h2>Update CSS <span class='hl'>Variables</span> with <span class='hl'>JS</span></h2>
+
+    <div class="controls">
+        <label for="spacing">Spacing:
         <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
     </label>
 
-    <label for="blur">Blur:
+        <label for="blur">Blur:
         <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
     </label>
 
-    <label for="font">Font-Size:
+        <label for="font">Font-Size:
         <select name="font" data-sizing="px">
             <option value="18" data-sizing="px">18</option>
             <option value="24" data-sizing="px" selected="true">24</option>
@@ -28,14 +30,13 @@
         </select>
     </label>
 
-    <label for="base">Base Color
+        <label for="base">Base Color
         <input type="color" name="base" value="#35A9DB">
     </label>
-  </div>
+    </div>
 
-  <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
-
-
+    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
     <script src="./app.js"></script>
 </body>
+
 </html>

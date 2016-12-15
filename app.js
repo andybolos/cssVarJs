@@ -1,4 +1,3 @@
-
 const inputs = document.querySelectorAll('.controls input, .controls select');
 
 function handleUpdate() {
