@@ -1,0 +1,57 @@
+  :root {
+      --spacing: 10px;
+      --base: #35A9DB;
+      --blur: 0px;
+      --font: 24px;
+  }
+
+  img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+      max-width: 100%;
+      height: auto;
+      box-sizing: border-box;
+  }
+
+  .hl {
+      color: var(--base);
+  }
+
+  body {
+    text-align: center;
+  }
+
+  body {
+    background: #032B43;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: var(--font);
+  }
+
+  .controls {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;;
+  }
+
+    label {
+        display: flex;
+        align-items: center;
+        margin: 10px
+    }
+
+    input, select {
+        margin: 0 5px;
+    }
+
+  a {
+    color: var(--base);
+    text-decoration: none;
+  }
+
+  input {
+    width:100px;
+  }
